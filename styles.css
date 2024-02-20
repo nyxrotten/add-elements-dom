@@ -1,3 +1,29 @@
+:root {
+    --greywhite: #EFF4F5;
+    --lightseagreen: #78B6C2;
+    --mediumseagreen: #3C818F;
+    --darkseagreen: #14505C;
+    --deepseagreen: #012B33;
+}
 body {
-    background-color: lightblue;
+    background-color: var(--lightseagreen);
+}
+
+main {
+    width: 100%;
+    display: flex;
+}
+
+.box {
+    width: 33%;
+    height: 100px;
+    background-color: #14505C;
+}
+
+h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--greywhite);
+    font-size: 40px;
 }
