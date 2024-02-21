@@ -17,8 +17,8 @@ main {
 
 .box {
     margin-top: 5%;
-    width: 33%;
-    height: 600px;
+    width: 45vh;
+    height: 70vh;
     background-color: #14505C;
     border-radius: 20px;
     display: flex;
@@ -34,10 +34,28 @@ h1 {
     font-size: 30px;
 }
 
-hr {
-    width: 65%;
-    margin-top: -15px;
+#boxUl {
+    width: 80%;
+    height: 65%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    
 }
+
+
+ul {
+    margin-left: -50px;
+}
+
+li {
+    list-style: none;
+    color: var(--greywhite);
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
 
 button {
     width: 200px;
@@ -58,8 +76,10 @@ button:hover {
     border: 2px solid var(--mediumseagreen);
 }
 
-ul {
-    height: 350px;
+@media (max-width: 480px) {
+    box {
+    width: 35vh;
+    height: 80vh;
+    }
 }
 
-p {color: var(--greywhite)}
