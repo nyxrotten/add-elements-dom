@@ -61,3 +61,5 @@ button:hover {
 ul {
     height: 350px;
 }
+
+p {color: var(--greywhite)}
